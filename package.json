@@ -1,0 +1,25 @@
+{
+    "name": "test-test",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Tests for elm-test",
+    "scripts": {
+      "elm-format": "elm-format Web/WebApp Test/ --yes",
+      "elm-test": "elm-test Test/Unit/**/*.elm",
+      "elm-test-watch": "elm-test Test/Unit/**/*.elm --watch",
+      "elm": "elm make Web/WebApp/Identity.elm",
+      "elm-debug": "npm run elm -- --debug",
+      "elm-live": "elm-live Web/WebApp/Identity.elm"
+    },
+    "keywords": [
+      "Test"
+    ],
+    "devDependencies": {
+      "elm": "^0.19.1-5",
+      "elm-format": "^0.8.5",
+      "elm-test": "^0.19.1",
+      "mkdirp": "^0.5.5"
+    },
+    "dependencies": {
+    }
+  }

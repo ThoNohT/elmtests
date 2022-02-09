@@ -1,0 +1,5 @@
+{
+    "elmLS.elmFormatPath": "node_modules\\.bin\\elm-format.cmd",
+    "elmLS.elmPath": "node_modules\\.bin\\elm.cmd",
+    "elmLS.elmTestPath": "node_modules\\.bin\\elm-test.cmd --compiler node_modules\\.bin\\elm.cmd"
+}
